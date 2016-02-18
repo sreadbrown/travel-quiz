@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Travel Quiz</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+          <h1>Where should you go on vacation?</h1>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <form id="match">
+        <label for="passport">Do you have a passport?</label>
+        <select id="passport" class="form-control">
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+        <label for="adventure">How adventurous are you?</label>
+        <select id="adventure" class="form-control">
+          <option>I like to stay in the hotel</option>
+          <option>Sometimes I go to places near my hotel</option>
+          <option>I like to hit up all the local tourist spots</option>
+          <option>I like to find cool hidden gems in the city by asking locals</option>
+          <option>I find the most extreme activity possible</option>
+        </select>
+        <label for="season">What is your favorite season?</label>
+        <select id="season" class="form-control">
+          <option>Winter</option>
+          <option>Autumn</option>
+          <option>Spring</option>
+          <option>Summer</option>
+        </select>
+        <label for="aspect">What is your favorite aspect of traveling?</label>
+        <select id="aspect" class="form-control">
+          <option>New experiences</option>
+          <option>Culture</option>
+          <option>Scenery</option>
+          <option>Historical significance</option>
+          <option>Food & Drink</option>
+        </select>
+        <label for="activity">some question that gets as urban vs rural?</label>
+        <select id="activity" class="form-control">
+          <option>Cooking</option>
+          <option>Reading</option>
+          <option>Biking</option>
+          <option></option>
+          <option>Food & Drink</option>
+        </select>
+        <button type="submit" class="btn">See My Ideal Vacation Destination!</button>
+      </form>
+      <div id="loc1" class="results">
+        <h1>loc1</h1>
+        <img src="img/loc1.jpg">
+        <p></p>
+      </div>
+      <div id="loc2" class="results">
+        <h1>loc2</h1>
+        <img src="img/loc2.jpg">
+        <p>
+        </p>
+      </div>
+      <div id="loc3" class="results">
+        <h1>loc3</h1>
+        <img src="img/loc.jpg">
+        <p>
+      </div>
+    </div>
+  </body>
+</html>
