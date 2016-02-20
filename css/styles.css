@@ -1,19 +1,5 @@
-.intro {
-  font-family: sans-serif;
-
-}
-.intro img {
-  max-width: 50%;
-  align-items: center;
-  float: left;
-  padding:2%;
-}
-.intro h2 {
-  text-align: center;
-  font-variant: small-caps;
-}
-.intro p {
-  font-size: medium;
+img {
+  max-width: 100%;
 }
 .container  {
 margin-left: 7%;
@@ -22,7 +8,33 @@ margin-right: 7%;
 .jumbotron  {
   text-align: center;
 }
-.highlighter {
-  background-color: blue;
-  border: 3px solid #8E388E;
+#athens{
+  display: none;
+}
+#hongkong  {
+  display: none;
+}
+#belize {
+  display: none;
+}
+#newzealand {
+  display: none;
+}
+#india  {
+  display: none;
+}
+#tahoe  {
+  display: none;
+}
+#portland {
+  display: none;
+}
+#newyork  {
+  display: none;
+}
+#asheville  {
+  display: none;
+}
+#neworleans {
+  display: none;
 }
