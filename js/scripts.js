@@ -9,6 +9,12 @@ $(document).ready(function() {
 
     $(".result").hide();
 
+    if ((passport === "null") || (plans === "null") || (urban === "null") || (activity === "null") || (adventure === "null")) {
+      alert("Please fill out all of the questions.");
+        $("form.match").show();
+          $("#again").hide();
+    }
+
     if (passport === 'yespassport') {
       if (activity === 'art') {
         if (urban === 'city') {
@@ -76,16 +82,6 @@ $(document).ready(function() {
       }
     }
 
-
-    //
-    //
-    //
-    // $("#again").click(function(event) {
-    //   $(".result").hide();
-    //     $("form#match").show();
-    //       $("#again").hide();
-    //
-    // });
     event.preventDefault();
   });
 });
