@@ -41,8 +41,41 @@ $(document).ready(function() {
             $('#india').show();
           }
       }
-
     }
+    if (passport === 'nopassport') {
+      if (activity === 'art') {
+        if (urban === 'city') {
+          $('#newyork').show();
+        } else {
+            $('#asheville').show();
+        }
+      } else if (activity === 'nature') {
+          if (urban === 'city') {
+            $('#portland').show();
+          } else {
+            $('#tahoe').show();
+          }
+      } else if (activity === 'food') {
+          if (urban === 'city') {
+            $('#neworleans').show();
+          } else {
+            $('#portland').show();
+          }
+      } else if (activity === 'relax') {
+          if (urban === 'city') {
+            $('#neworleans').show();
+          } else {
+            $('#tahoe').show();
+          }
+      } else if (activity === 'culture') {
+          if (urban === 'city') {
+            $('#neworleans').show();
+          } else {
+            $('#asheville').show();
+          }
+      }
+    }
+
 
     //
     //
