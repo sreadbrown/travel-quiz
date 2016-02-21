@@ -7,14 +7,34 @@ $(document).ready(function() {
     var adventure = $("select#adventure").val();
     var plans = $("select#plans").val();
 
+    $(".result").hide();
 
+    if (passport === 'yespassport') {
+      if (activity === 'art') {
+        if (urban === 'city') {
+          $('#hongkong').show();
+        } else {
+            $('#india').show();
+        }
+      } else if (activity === 'nature') {
+          if (urban === 'city') {
+            $('#belize').show();
+          } else {
+            $('#newzealand').show();
+          }
+      }
 
+    }
+
+    //
+    //
+    //
     // $("#again").click(function(event) {
     //   $(".result").hide();
     //     $("form#match").show();
     //       $("#again").hide();
     //
     // });
-    // event.preventDefault();
+    event.preventDefault();
   });
 });
