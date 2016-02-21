@@ -8,15 +8,12 @@ $(document).ready(function() {
     var plans = $("select#plans").val();
 
     $(".result").hide();
+
+    // if ((passport === "null") || (plans === "null") || (urban === "null") || (activity === "null") || (adventure === "null")) {
+    //   alert("Please fill out all of the questions.");
+
+    // }
     $('#match').hide();
-
-
-    if ((passport === "null") || (plans === "null") || (urban === "null") || (activity === "null") || (adventure === "null")) {
-      alert("Please fill out all of the questions.");
-        $("form.match").show();
-          $("#again").hide();
-    }
-
     if (passport === 'yespassport') {
       if (activity === 'art') {
         if (urban === 'city') {
@@ -50,7 +47,7 @@ $(document).ready(function() {
           }
       }
     }
-    if (passport === 'nopassport') {
+    else if (passport === 'nopassport') {
       if (activity === 'art') {
         if (urban === 'city') {
           $('#newyork').show();
@@ -82,6 +79,7 @@ $(document).ready(function() {
             $('#asheville').show();
           }
       }
+      // $('#match').hide();
     }
 
     event.preventDefault();

@@ -7,6 +7,17 @@ margin-right: 7%;
 }
 .jumbotron  {
   text-align: center;
+  background-color: #C8252C;
+  color: white;
+}
+.jumbotron h1 {
+  font-weight: bold;
+}
+label {
+  font-size: 150%;
+}
+body  {
+  font-family: sans-serif;
 }
 #athens{
   display: none;
