@@ -22,6 +22,24 @@ $(document).ready(function() {
           } else {
             $('#newzealand').show();
           }
+      } else if (activity === 'food') {
+          if (urban === 'city') {
+            $('#hongkong').show();
+          } else {
+            $('#newzealand').show();
+          }
+      } else if (activity === 'relax') {
+          if (urban === 'city') {
+            $('#athens').show();
+          } else {
+            $('#belize').show();
+          }
+      } else if (activity === 'culture') {
+          if (urban === 'city') {
+            $('#athens').show();
+          } else {
+            $('#india').show();
+          }
       }
 
     }
