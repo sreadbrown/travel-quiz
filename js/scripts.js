@@ -8,6 +8,8 @@ $(document).ready(function() {
     var plans = $("select#plans").val();
 
     $(".result").hide();
+    $('#match').hide();
+
 
     if ((passport === "null") || (plans === "null") || (urban === "null") || (activity === "null") || (adventure === "null")) {
       alert("Please fill out all of the questions.");
